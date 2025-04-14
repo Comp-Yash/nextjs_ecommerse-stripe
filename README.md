@@ -1,8 +1,13 @@
+---
 
 📦 Project: TheGist E-Commerce Website
 
+---
+
 📝 1) Project Info
 A modern e-commerce website designed for simplicity and speed. Users can browse products, add items to their cart, and quickly checkout without creating an account or dealing with unnecessary steps.
+
+---
 
 ⚙️ 2) How It Works
 Visit the Website: Users land directly on the product page.
@@ -14,6 +19,8 @@ Add to Cart: Select desired products and add them to the cart.
 Checkout: Complete payment securely using Stripe without creating an account.
 
 Done: Simple, clean, and efficient e-commerce experience.
+
+---
 
 🛠️ 3) Tech Stack
 Next.js — React framework for fast, server-rendered web apps.
@@ -29,6 +36,7 @@ Vercel — Hosting platform for deploying Next.js apps.
 Zustand — Lightweight state management for React apps.
 
 
+---
 
 
 💳 Role of Stripe in This Project
@@ -43,6 +51,8 @@ Stripe’s hosted checkout securely collects payment details and confirms the tr
 
 Transaction Records & Metadata:
 Stripe records transaction data and supports custom metadata — like product details, quantity, and user-provided info — without needing user accounts.
+
+---
 
 🌐 Stripe Business Dashboard Features:
 While this website keeps things account-free, if you use a Stripe business account, you can:
@@ -59,6 +69,8 @@ Include extra order info (like product IDs, quantities, user notes) in the payme
 Automate Receipts and Notifications:
 Automatically send email confirmations and updates to users through Stripe.
 
+---
+
 🔒 Why This Is Great:
 No Login Required:
 Keeps the purchase flow minimal and fast.
@@ -70,6 +82,7 @@ Optional for Expansion:
 Businesses can later integrate address collection, email marketing, shipping management, and analytics through Stripe’s dashboard — without rebuilding the website.
 
 
+---
 
 
 
@@ -100,6 +113,7 @@ Businesses can later integrate address collection, email marketing, shipping man
 ![Order Confirmatiob](./8.png)
 
 
+---
 
 
 
@@ -121,6 +135,8 @@ card info : 4242 4242 4242 4242
 card info : 12/25
 card info : 123
 
+---
+
 
 2️⃣ MongoDB
 Create a MongoDB Atlas account.
@@ -133,6 +149,7 @@ Don’t forget to set your MongoDB connection string in your .env file like this
 MONGODB_URI=your_mongo_connection_url 
 
 
+---
 
 
 

@@ -1,5 +1,3 @@
----
-
 📦 Project: TheGist E-Commerce Website
 
 ---
@@ -130,10 +128,11 @@ Stripe will store this product and metadata, which can be fetched via Stripe’s
 
 To buy Product :
 
-email : buyer@gmail.com  
-card info : 4242 4242 4242 4242
-card info : 12/25
-card info : 123
+- **Email:** buyer@gmail.com  
+- **Card Number:** 4242 4242 4242 4242  
+- **Expiry:** 12/25  
+- **CVC:** 123  
+
 
 ---
 
